@@ -1,0 +1,61 @@
+.Fisrt-title {
+    display: flex;  
+    align-items: center;
+    width: 50%;
+    margin-left: 1.5rem;
+}
+.Fisrt-title > h1 {
+    position: relative;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #aa0303;
+    background-color: #0cbcf225;
+    border-radius: 40px;
+    margin-top: 6px;
+    width:4.5rem;
+    height: 3rem;
+}
+.Fisrt-title > h1 > h2 {
+    position: relative;
+    left: -5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    width:3rem;
+    height: 2.7rem;
+    font-size: 40px;
+    color: #009fcf;
+    text-shadow: 4px 3px 3px black;
+    text-anchor: 5px solid black;
+}
+.Fisrt-title > h1 > h3{
+    position: relative;
+    z-index: 0;
+    left: 6.4px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    width:3rem;
+    height: 2.7rem;
+    text-shadow: 4px 3px 3px black;
+    font-size: 40px;
+    color: #d9252500;
+}.Fisrt-title > h1 > .Secend{
+    position: absolute;
+    z-index: 1;
+    left: 6.3px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    width:3rem;
+    height: 2.7rem;
+    text-shadow: 0px 0px 0px black;
+    font-size: 40px;
+    color: #45a803;
+}
+.Fisrt-title > .Title {
+    margin: 0px 2rem;
+}
+.Fisrt-title > .Title:hover {
+    transition: all 1.5s;
+    transform: scale(1.5);
+    cursor: pointer;
+    color: #ff0000;
+}

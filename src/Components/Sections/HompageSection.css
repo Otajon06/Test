@@ -1,0 +1,10 @@
+.Section-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    background-color: #275950;
+    border: 0px;
+}
